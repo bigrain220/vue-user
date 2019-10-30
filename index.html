@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>一站通 - 营销网站后台登录</title>
+  <link rel="stylesheet" href="static/css/common.css">
+  <link rel="stylesheet" href="static/css/iconfont.css">
+  <script src="static/tinymce4.7.5/tinymce.min.js"></script>
+  <script src="static/tinymce4.7.5/langs/zh_CN.js"></script>
+  <script type="text/javascript" src="//api.map.baidu.com/api?v=1.3"></script>
+  <script>
+    window.configFlag = true; //是否第一次登录
+    window.options = [];
+    window.username = '';
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+<style>
+  * {
+    font-family: Microsoft YaHei;
+  }
+  .el-dialog__header {
+    border-bottom: 1px solid #eee;
+  }
+  #header .el-input__inner {
+    background: #242f42;
+    border-color: #242f42;
+    color: #fff;
+  }
+  #header .el-select-dropdown__item.selected {
+    color: #19aa8d;
+  }
+  .el-collapse-item__header {
+    background-color: #ebeef5;
+    border-bottom-color: #dadada;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+  }
+  .el-collapse-item__content {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+  .el-collapse-item__arrow {
+    line-height: 40px;
+  }
+  .el-collapse-item__header:hover {
+    background: #19aa8d;
+    color: #fff;
+  }
+  .ImageManage .el-dialog__body {
+    padding: 10px;
+  }
+  /* .upload-imgs .el-upload-list {display:none;} */
+  .box .el-upload-list {
+    background: #fff;
+    border: 1px solid #eee;
+    position: absolute;
+    box-shadow: 0 0 10px #eee;
+    z-index: 999;
+  }
+  #codeTable .el-table td {padding:5px 0;}
+</style>
+</html>
