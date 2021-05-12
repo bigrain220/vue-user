@@ -13,7 +13,7 @@
     "@tinymce/tinymce-vue": "^1.1.0",
     "axios": "^0.17.1",
     "babel-polyfill": "^6.26.0",
-    "codemirror": "^5.40.0",
+    "codemirror": "^5.58.2",
     "element-ui": "^2.3.7",
     "vue": "^2.5.2",
     "vue-qr": "^1.2.8",
